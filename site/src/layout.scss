@@ -1,0 +1,44 @@
+.container {
+  margin-top: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+}
+
+.centerText{
+  text-align: center;
+}
+.strong{
+  font-weight: bold;
+}
+
+form.itemSpacing{
+  ui5-input, ui5-button{
+    margin-left: 1rem;
+  }
+
+  //Caso não tivesse o desgin no <Button>
+  
+  // ui5-button{
+  //   background-color: #0854a0;
+  //   border-color: #0854a0;
+  //   color: #FFF;
+  //   background-image: none;
+  //   &[active]{
+  //     color: #0854a0;
+  //     background-color: #FFF;
+  //   }
+  // }
+}
